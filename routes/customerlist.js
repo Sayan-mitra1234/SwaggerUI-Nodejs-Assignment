@@ -48,7 +48,7 @@ const bodyParser = require('body-parser')
 router.use(bodyParser.json())
 router.use(bodyParser.urlencoded({ extended: true }))
 
-const userModel=require('../SwaggerUI-Nodejs-Assignment/model/user')
+const userModel=require('../model/user')
 
 router.get('/customerlist', async(req,res)=>{
     try {

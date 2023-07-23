@@ -200,7 +200,7 @@ const bodyParser = require('body-parser')
 router.use(bodyParser.json())
 router.use(bodyParser.urlencoded({ extended: true }))
 
-const productModel = require('../SwaggerUI-Nodejs-Assignment/model/product')
+const productModel = require('../model/product')
 
 
 router.get('/allProducts', async(req,res)=>{
